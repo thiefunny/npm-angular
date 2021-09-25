@@ -5,7 +5,10 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './steering-wheel.component.html',
   styleUrls: ['./steering-wheel.component.css']
 })
+
 export class SteeringWheelComponent implements OnInit {
+
+toTheRight = Math.round(Math.random());
 
   constructor() { }
 

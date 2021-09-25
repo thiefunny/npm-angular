@@ -1,1 +1,7 @@
 <p>wheel works!</p>
+
+<button (click)="addWheel()">Add wheel</button>
+<hr>
+<p *ngFor = "let wheel of wheels" [ngStyle] = "{'background-color': 'red'}">{{wheel.felga}}, śrub: {{wheel.sruby}}</p>
+<hr>
+<hr>
